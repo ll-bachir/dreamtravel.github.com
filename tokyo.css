@@ -1,0 +1,93 @@
+body{
+    width: 95%;
+    height:100% ;
+    background-image: url(tokyo3.jpg);
+    background-size: cover;
+    
+}
+.texte1{
+display: flex;
+color: white;
+margin-left: 10px;
+}
+
+
+    
+
+h1{
+    margin-left: 600px;
+    color: white;
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.p1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 50px;
+color: white;
+margin-left: 50px;
+margin-top: 40px;
+
+}
+.texte2{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    
+}
+.p2{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    ma
+    
+
+    }
+img{
+    height: 300px;
+    width: 350px;
+    margin-top:100px;
+    margin-left: 15px;
+    margin: 50px;
+    transition: 1.5s ease-in-out;
+    overflow: clip;
+    transform: ;
+    border-radius: 20px;
+    
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.2) ;
+    transition: ease-in-out;
+}
+.video{
+    
+    
+}
+iframe{
+    width: 1000px;
+    height: 700px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+h3{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    margin-left: 400px;
+    font-size: 25px;
+}
+h1 p{
+    overflow: hidden;
+}
+h1 span{
+    display: block;
+    transform: translateX(150px);
+    position: relative;
+    overflow: hidden;
+    animation: 1.5s titleAnimation linear forwards;
+}
+@keyframes titleAnimation{
+    to{
+        transform: initial;
+    }
+}

@@ -1,0 +1,21 @@
+fieldset{
+    width: 30%;
+    margin-left: 520px;
+    background-color: gray;
+    margin-top: 200px;
+    border-radius: 8px;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+tr{
+    color: rgb(251, 251, 251);
+}
+h5{
+    font-size: 17.5px;
+    color: white;
+    
+}
